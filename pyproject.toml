@@ -1,0 +1,14 @@
+[project]
+name = "quotes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fake-useragent>=2.2.0",
+    "matplotlib>=3.10.3",
+    "moviepy>=2.2.1",
+    "pillow>=11.2.1",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+]
