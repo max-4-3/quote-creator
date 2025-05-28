@@ -30,12 +30,13 @@ class QuoteCreator:
             return [None]
 
     def get_quote_of_day(self) -> Quote:
-        response = self.make_request(BASE_URL + END_POINTS["daily"])[0]
-        if not response:
-            raise ValueError("Not able to get quote!")
         for quote in self.quotes:
             if quote.time == datetime.now().strftime("%Y-%m-%d"):
                 return quote
+
+        response = self.make_request(BASE_URL + END_POINTS["daily"])[0]
+        if not response:
+            raise ValueError("Not able to get quote!")
 
         q = Quote(
             quote=response.get("q"),

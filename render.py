@@ -43,7 +43,12 @@ class RenderQuoteAsImage:
         wrapped_text = textwrap.fill(quote, width=self.wrap_width)
 
         bbox = draw.textbbox(
-            (0, 0), wrapped_text, font=self.font, spacing=10, align="center"
+            (0, 0),
+            wrapped_text,
+            font=self.font,
+            spacing=10,
+            align="center",
+            font_size=self.font_size,
         )
         text_width = bbox[2] - bbox[0]
         text_height = bbox[3] - bbox[1]
@@ -63,6 +68,7 @@ class RenderQuoteAsImage:
             fill=self.text_color,
             align="center",
             spacing=10,
+            font_size=self.font_size,
         )
 
         image.save(os.path.join(self.output_dir, self.output_name))
@@ -87,14 +93,14 @@ class RenderQuoteAsImage:
         else:
             calculated_wrap_width = 1  # Fallback, though unlikely with proper fonts
 
-        # Ensure wrap_width is not excessively small or large
-        calculated_wrap_width = max(
-            calculated_wrap_width, 10
-        )  # Minimum characters per line
-        calculated_wrap_width = min(
-            calculated_wrap_width, 150
-        )  # Prevent excessively long lines for tiny fonts
-
+        #         # Ensure wrap_width is not excessively small or large
+        #         calculated_wrap_width = max(
+        #             calculated_wrap_width, 10
+        #         )  # Minimum characters per line
+        #         calculated_wrap_width = min(
+        #             calculated_wrap_width, 150
+        #         )  # Prevent excessively long lines for tiny fonts
+        #
         return calculated_wrap_width
 
 

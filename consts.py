@@ -14,3 +14,63 @@ BODY = (
 )
 OPEN_QUOTE = "“"
 CLOSE_QUOTE = "”"
+TEMPLATES = [
+    "/home/max/Extras/Python/Quotes/templates/bro.png",
+    "/home/max/Extras/Python/Quotes/templates/what the intrusive thoughts whispered.png",
+    "/home/max/Extras/Python/Quotes/templates/how i hacked the simulation (accidentally).png",
+    "/home/max/Extras/Python/Quotes/templates/3am.png",
+    "/home/max/Extras/Python/Quotes/templates/how dudes in ancient rome were probably vibing.png",
+    "/home/max/Extras/Python/Quotes/templates/quote_of_the_day.png",
+    "/home/max/Extras/Python/Quotes/templates/group_chat.png",
+    "/home/max/Extras/Python/Quotes/templates/what i texted my ex during a lunar eclipse.png",
+    "/home/max/Extras/Python/Quotes/templates/deamon_in_wall.png",
+    "/home/max/Extras/Python/Quotes/templates/what the 2007 YouTube tutorial taught me.png",
+]
+
+AUDIO_DATA = [
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/Damned_slowed_reverb [Wexy@youtube] [nEFXGMGrrao].mp3",
+        "file_name": "Damned_slowed_reverb [Wexy@youtube] [nEFXGMGrrao].mp3",
+        "sections": [[10, 30], [69, 80], [95, 115]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/HANS_ZIMMER-TIME_SLOWED+REVERBED [SLOWBERB@youtube] [Run3bAGAO4s].mp3",
+        "file_name": "HANS_ZIMMER-TIME_SLOWED+REVERBED [SLOWBERB@youtube] [Run3bAGAO4s].mp3",
+        "sections": [[126, 146], [172, 200]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/The_Toxic_Avenger_-_Angst_Two_From_the_Nissan_Qashqai_Movie [Roy_Music@youtube] [nWUlpJ7X0fI].mp3",
+        "file_name": "The_Toxic_Avenger_-_Angst_Two_From_the_Nissan_Qashqai_Movie [Roy_Music@youtube] [nWUlpJ7X0fI].mp3",
+        "sections": [[247, 257]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/scarlxrd_-_HXW_THEY_JUDGE._audio [scarlxrd@youtube] [U4weEcBbDnM].mp3",
+        "file_name": "scarlxrd_-_HXW_THEY_JUDGE._audio [scarlxrd@youtube] [U4weEcBbDnM].mp3",
+        "sections": [[0, 40]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/Night_Lovell_Type_beat_-_Patience_DARK_TRAP_BEAT_Prod._Broque [Broque_Beats@youtube] [HXPXHZP-ZgE].mp3",
+        "file_name": "Night_Lovell_Type_beat_-_Patience_DARK_TRAP_BEAT_Prod._Broque [Broque_Beats@youtube] [HXPXHZP-ZgE].mp3",
+        "sections": [[20, 40], [90, 120], [129, 149], [170, 190]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/trevor_something_-_fade_away_slowed_+_reverb [ero@youtube] [9Ptx1XtPRo4].mp3",
+        "file_name": "trevor_something_-_fade_away_slowed_+_reverb [ero@youtube] [9Ptx1XtPRo4].mp3",
+        "sections": [[20, 40], [120, 150], [190, 230]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/FREE_BONES_x_NIGHT_LOVELL_TYPE_BEAT_-_NOTHING [killmeblxxd@youtube] [Elegu-DE7xo].mp3",
+        "file_name": "FREE_BONES_x_NIGHT_LOVELL_TYPE_BEAT_-_NOTHING [killmeblxxd@youtube] [Elegu-DE7xo].mp3",
+        "sections": [[0, 40]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/gta_iv_-_soviet_connection_slowed_+_reverb [N@youtube] [5OdfIiILjRQ].mp3",
+        "file_name": "gta_iv_-_soviet_connection_slowed_+_reverb [N@youtube] [5OdfIiILjRQ].mp3",
+        "sections": [[10, 40], [128, 148], [160, 180], [322, 344]],
+    },
+    {
+        "file": "/home/max/Extras/Python/Quotes/resources/Audiomachine_-_Blood_And_Stone_Ivan_Torrent_Remix [Jennyni20_Epic_Music@youtube] [W8-ZodiL1TA].mp3",
+        "file_name": "Audiomachine_-_Blood_And_Stone_Ivan_Torrent_Remix [Jennyni20_Epic_Music@youtube] [W8-ZodiL1TA].mp3",
+        "sections": [[25, 55], [124, 144]],
+    },
+]
