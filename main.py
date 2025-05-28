@@ -1,74 +1,56 @@
-from requests import Session
+from quote import QuoteCreator
+from render import RenderQuoteAsImage
+from video import RenderImageAsVideo
+from upload import Uploader
 from rich import print
-import json, os
-from fake_useragent import UserAgent
-from render import text_to_image 
+import os, re
+from consts import BODY
 
-def make_session(**kwargs):
-    session = Session(**kwargs)
-    session.headers["UserAgent"] = UserAgent().random
-    return session
-
-def load_data(fp: str):
-    try:
-        with open(fp, 'r', errors='ignore', encoding='utf-8') as file:
-            return json.load(file)
-    except Exception as e:
-        print('Error while loading data:', e)
-
-    return None
-
-def save_data(data: dict | list, fp: str):
-    try:
-        with open(fp + (".json" if not fp.endswith(".json") else ""), "w", errors="ignore", encoding="utf-8") as file:
-            json.dump(data, file)
-        return True
-    except Exception as e:
-        print('Error While Saving:', e)
-
-    return False
-
-def make_request(session: Session, url: str, method="GET", **kwargs):
-    req = session.request(method, url=url, **kwargs)
-    req.raise_for_status()
-    return req.json()
 
 def main():
-    mode = input("Do you want to load new quotes?: ")
-    if mode.lower().strip() in ["no", "n"]:
-        fp = "quotes.json"
-        data = load_data(fp)
+    print("Setting Up...")
+
+    qt = QuoteCreator()
+    ir = RenderQuoteAsImage()
+    iv = RenderImageAsVideo()
+    up = Uploader()
+    print("Everyting setup!")
+
+    print("Gathering quote of the day...")
+    qt_day = qt.get_quote_of_day()
+    qt.save_quotes()
+    print("Recieved Quote of the day:", qt_day.quote, sep="\n")
+
+    print("Converting quote to image...")
+    image_path = ir.convert_quote_to_image(quote=qt_day.quote)
+    print("Convered Quote as image at", image_path, sep=": ")
+
+    print("Converting Image to Video...")
+    audio_path = input("Enter the bg audio path: ")
+    if not os.path.exists(audio_path):
+        raise ValueError("Audio is required!")
+    audio_trim = input(
+        "Enter the section which you want to include in video from audio as a tuple (i.e. (0, 30); without brackets!): \n"
+    )
+    audio_trim_match = re.search(r"(\d+)\s*,\s*(\d+)", audio_trim.strip())
+    if not audio_trim_match:
+        audio_trim = (0, int(iv.duration))
     else:
-        url = "https://zenquotes.io/api/quotes"
-        session = make_session()
-        print("Making request to", url)
-        data = None
-        try:
-            data = make_request(session, url)
-        except Exception as e:
-            print('Unable to make request', e)
-            return
+        audio_trim = (int(audio_trim_match.group(1)), int(audio_trim_match.group(2)))
 
-        print('Request Succesfull!')
-        print(data)
+    print("Rendering Video...")
+    iv.set_audio(audio_path=audio_path, audio_cut_time=audio_trim)
+    video_path = iv.convert_image(image_path)
+    print("Video Rendered at", video_path, sep=": ")
 
-        fp = "quotes.json"
-        save_data(data, fp)
-        print('Data Saved at', fp)
-    
-    if not data:
-        print('Data is None')
-        return
-    
-    save_path = "quotes"
-    os.makedirs(save_path, exist_ok=True)
+    print(f"[{up.client.account_info().full_name}] Uploading to instagram...")
+    title = "\n".join([qt_day.quote, f"- {qt_day.author}"] + BODY)
+    print("Title Generated:\n", title)
+    up.caption = title
+    info = up.upload_reel(video_path=video_path, thumb_path=image_path)
+    print("Reel Uploaded to instagram!")
+    print(info.pk)
 
-    for i, d in enumerate(data, start = 1):
-        quote = d["q"]
-        print(f'Converting {quote} to image')
-        text_to_image("“" + quote.strip() + "”", output_path=os.path.join(save_path, f"{i}_quote.png"))
 
 if __name__ == "__main__":
     main()
-
-

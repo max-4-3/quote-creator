@@ -1,42 +1,53 @@
 import moviepy as mp
 import os
-from rich import print
-
-QUOTES_DIR = "quotes"
-OUTPATH = "output"
-IMAGE_PATH = "quotes/20_quote.png"
-AUDIO_PATH = "res/audio.mp3"
-DURATION = 6
-FADEIN = 2.0
-FADEOUT = FADEIN
-VIDEO_EFFECTS = [mp.vfx.FadeIn(FADEIN), mp.vfx.FadeOut(FADEOUT)]
-AUDIO_EFFECTS = [mp.afx.AudioFadeIn(FADEIN), mp.afx.AudioFadeOut(FADEOUT)]
 
 mp.config.FFMPEG_BINARY = "/usr/bin/ffmpeg"
 mp.config.FFPLAY_BINARY = "/usr/bin/ffplay"
 
-audio = (
-    mp.CompositeAudioClip(
-        [mp.AudioFileClip(AUDIO_PATH).subclipped(start_time=120, end_time=200)]
-    )
-    .with_effects(AUDIO_EFFECTS)
-    .with_duration(DURATION)
-)
 
-for file in os.listdir(QUOTES_DIR):
-    file = os.path.join(QUOTES_DIR, file)
+class RenderImageAsVideo:
+    def __init__(self, **kwargs):
+        self.output_path = kwargs.get("output_path") or "output/video"
+        self.output_name = kwargs.get("output_name") or "video.mp4"
+        self.duration = kwargs.get("duration") or 6.0
+        self.fadein = kwargs.get("fadein") or 2.0
+        self.fadeout = self.fadein
+        self.vfx = [mp.vfx.FadeIn(self.fadein), mp.vfx.FadeOut(self.fadeout)]
+        self.afx = [mp.afx.AudioFadeIn(self.fadein), mp.afx.AudioFadeOut(self.fadeout)]
+        self.audio: mp.CompositeAudioClip = None
 
-    if os.path.isdir(file):
-        continue
+        os.makedirs(self.output_path, exist_ok=True)
 
-    print(f'Making Quote Video for "{os.path.basename(file)}"')
-    image = mp.ImageClip(file, duration=DURATION).with_effects(VIDEO_EFFECTS)
-    clip = mp.CompositeVideoClip([image])
-    clip.fps = 30
-    clip.audio = audio
-    clip.write_videofile(
-        filename=os.path.join(OUTPATH, os.path.basename(file) + ".mp4"),
-        codec="h264",
-        preset="fast",
-    )
-    print(f"Video Made!")
+    def set_audio(
+        self, audio_path: str, audio_cut_time: tuple[int, int]
+    ) -> mp.CompositeAudioClip:
+        self.audio = (
+            mp.CompositeAudioClip(
+                [mp.AudioFileClip(audio_path).subclipped(*audio_cut_time)]
+            )
+            .with_effects(self.afx)
+            .with_duration(self.duration)
+        )
+        return self.audio
+
+    def convert_image(self, image_path: str, output_name=None):
+
+        if not self.audio:
+            raise Exception("Audio isn't set, consider doing .set_audio() first")
+
+        if output_name:
+            self.output_name = output_name
+
+        if not os.path.exists(image_path) or not os.path.isfile(image_path):
+            raise FileExistsError("Image File Doesn't Exist")
+
+        image = mp.ImageClip(image_path, duration=self.duration).with_effects(self.vfx)
+        clip = mp.CompositeVideoClip([image])
+        clip.fps = 30
+        clip.audio = self.audio
+        clip.write_videofile(
+            filename=os.path.join(self.output_path, self.output_name),
+            codec="h264",
+            preset="fast",
+        )
+        return os.path.join(self.output_path, self.output_name)
