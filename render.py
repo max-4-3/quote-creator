@@ -12,6 +12,7 @@ def find_system_font(name_keyword="JetBrainsMono Nerd Font"):
     raise FileNotFoundError(f"Font with keyword '{name_keyword}' not found.")
 def text_to_image(
     text,
+    input_image=None,
     output_path="output.png",
     image_size=(1080, 1920),  # 9:16
     font_keyword="JetBrainsMono",
@@ -48,7 +49,9 @@ def text_to_image(
     calculated_wrap_width = min(calculated_wrap_width, 150) # Prevent excessively long lines for tiny fonts
 
     # 3. Create the *actual* blank image for rendering
-    image = Image.new("RGB", image_size, color=bg_color)
+    image = Image.new("RGB", image_size, color=bg_color) if not input_image else (Image.open(input_image) if isinstance(input_image, str) else ( input_image if isinstance(input_image, Image) else None)))
+    if not image:
+        raise ValueError("Unable to Create/load Drawable image")
     draw = ImageDraw.Draw(image) # This is the 'draw' object you'll use for final rendering
 
     # 4. Wrap text using the calculated wrap_width
