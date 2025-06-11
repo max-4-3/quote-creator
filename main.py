@@ -3,24 +3,37 @@ from render import RenderQuoteAsImage
 from video import RenderImageAsVideo
 from upload import Uploader
 from rich import print
-import os, re, random
+import os
+import re
+import random
 from consts import BODY, AUDIO_DATA, TEMPLATES
+
+
+def clear():
+    os.system("clear" if os.name.lower() not in ["windows", "nt"] else "cls")
+
+
+def next_section(prompt: str = "Press Enter to continue..."):
+    print(prompt)
+    input("")
+    clear()
 
 
 def main():
     print("Setting Up...")
 
     qt = QuoteCreator()
-    ir = RenderQuoteAsImage()
+    ir = RenderQuoteAsImage(font_keyword="JetBrain")
     iv = RenderImageAsVideo()
     up = Uploader()
-    ir.font_size = 440
     print("Everyting setup!")
 
     print("Gathering quote of the day...")
     qt_day = qt.get_quote_of_day()
     qt.save_quotes()
     print("Recieved Quote of the day:", qt_day.quote, sep="\n")
+
+    next_section()
 
     print("Converting quote to image...")
     template = random.choice(TEMPLATES)
@@ -29,8 +42,10 @@ def main():
     image_path = ir.convert_quote_to_image(quote=qt_day.quote)
     print("Convered Quote as image at", image_path, sep=": ")
 
+    next_section()
+
     print("Converting Image to Video...")
-    if False:
+    if input("Have a custom audio path?: ").lower().strip() in ["yes", "y"]:
         audio_path = input("Enter the bg audio path: ")
         if not os.path.exists(audio_path):
             raise ValueError("Audio is required!")
@@ -47,13 +62,15 @@ def main():
             )
     else:
         selected_audio = random.choice(AUDIO_DATA)
-        print(f"Seleted Audio: {selected_audio["file_name"]}")
-        audio_path = selected_audio["file"]
         audio_trim = random.choice(selected_audio["sections"])
+        print(f"Seleted Audio: {selected_audio["file_name"]} [{audio_trim}]")
+        audio_path = selected_audio["file"]
     print("Rendering Video...")
     iv.set_audio(audio_path=audio_path, audio_cut_time=audio_trim)
     video_path = iv.convert_image(image_path)
     print("Video Rendered at", video_path, sep=": ")
+
+    next_section()
 
     print(f"[{up.client.account_info().full_name}] Uploading to instagram...")
     title = "\n".join([qt_day.quote, f"- {qt_day.author}"] + BODY)

@@ -44,6 +44,7 @@ class QuoteCreator:
             quote_html=response.get("h"),
         )
         self.quotes.append(q)
+        self.save_quotes()
         return q
 
     def save_quotes(self):
@@ -61,7 +62,7 @@ class QuoteCreator:
             )
         return True
 
-    def load_quotes(self):
+    def load_quotes(self) -> list[Quote]:
         if not os.path.exists(os.path.join(self.save_path, self.file_name)):
             return []
 
@@ -72,3 +73,6 @@ class QuoteCreator:
             encoding="utf-8",
         ) as file:
             return [Quote(**m) for m in json.load(file) if isinstance(m, dict)]
+
+    
+
