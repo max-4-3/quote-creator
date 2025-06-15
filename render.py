@@ -17,7 +17,8 @@ class RenderQuoteAsImage:
         self.margin = kwargs.get("margin") or 20
         self.font = self.get_font()
         self.output_name = kwargs.get("output_name") or (uuid4().hex + ".png")
-        self.output_dir = kwargs.get("output_dir") or os.path.join("output", "images")
+        self.output_dir = kwargs.get(
+            "output_dir") or os.path.join("output", "images")
         os.makedirs(self.output_dir, exist_ok=True)
 
     @property
@@ -37,12 +38,16 @@ class RenderQuoteAsImage:
         for font in fonts:
             if self.font_keyword.lower() in os.path.basename(font).lower():
                 return font
-        raise FileNotFoundError(f"Font with keyword '{self.font_keyword}' not found.")
+        raise FileNotFoundError(f"Font with keyword '{
+                                self.font_keyword}' not found.")
 
     def get_font(self):
         font_path = self.find_system_font()
         self.font = ImageFont.truetype(font=font_path, size=self.font_size)
         return self.font
+
+    def set_font_from_file(self, font_file: str):
+        self.font = ImageFont.truetype(font=font_file, size=self.font_size)
 
     def wrap_text(
         self, text: str, font: ImageFont.FreeTypeFont, max_width: int
@@ -89,7 +94,8 @@ class RenderQuoteAsImage:
                 image = Image.open(self.template)
                 self.width, self.height = image.size
         else:
-            image = Image.new(self.mode, (self.width, self.height), color=self.bg_color)
+            image = Image.new(
+                self.mode, (self.width, self.height), color=self.bg_color)
 
         draw = ImageDraw.Draw(image)
         self.margin = self.calculate_margin()
@@ -101,7 +107,8 @@ class RenderQuoteAsImage:
 
         text_width, text_height = self.get_text_size(draw, "\n".join(lines))
         x, y = self.get_center_pos(text_width, text_height)
-        print(self.width, self.height, image.size, x, y, text_height, text_width)
+        print(self.width, self.height, image.size,
+              x, y, text_height, text_width)
 
         draw.multiline_text(
             (x, y), "\n".join(lines), font=self.font, fill=self.font_color, align="center"

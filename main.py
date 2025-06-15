@@ -1,12 +1,13 @@
 from quote import QuoteCreator
 from render import RenderQuoteAsImage
-from video import RenderImageAsVideo
+from video import RenderImageAsVideo, process_video_with_overlay
 from upload import Uploader
 from rich import print
 import os
 import re
 import random
-from consts import BODY, AUDIO_DATA, TEMPLATES
+from consts import BODY, AUDIO_DATA, TEMPLATE_IMAGES, TEMPLATE_VIDEOS, FONTS
+import moviepy as mp
 
 
 def clear():
@@ -28,6 +29,22 @@ def main():
     up = Uploader()
     print("Everyting setup!")
 
+    if FONTS:
+        font = random.choice(FONTS)
+        print("Font choosen: {}".format(os.path.basename(font)))
+        ir.set_font_from_file(font)
+    else:
+        print("No custom fonts found falling back to: {}".format(ir.font_keyword))
+
+    if input("Do you want to use videos as background? ").lower().strip() in ["yes", "y"]:
+        overlay_flow = True
+    else:
+        overlay_flow = False
+
+    if overlay_flow:
+        ir.mode = "RGBA"
+        ir.bg_color = (0, 0, 0, 0)
+
     print("Gathering quote of the day...")
     qt_day = qt.get_quote_of_day()
     qt.save_quotes()
@@ -36,9 +53,10 @@ def main():
     next_section()
 
     print("Converting quote to image...")
-    template = random.choice(TEMPLATES)
-    print(f"Using '{template}' as template...")
-    ir.template = template
+    if not overlay_flow:
+        template = random.choice(TEMPLATE_IMAGES)
+        print(f"Using '{template}' as template...")
+        ir.template = template
     image_path = ir.convert_quote_to_image(quote=qt_day.quote)
     print("Convered Quote as image at", image_path, sep=": ")
 
@@ -66,12 +84,22 @@ def main():
         print(f"Seleted Audio: {selected_audio["file_name"]} [{audio_trim}]")
         audio_path = selected_audio["file"]
     print("Rendering Video...")
-    iv.set_audio(audio_path=audio_path, audio_cut_time=audio_trim)
-    video_path = iv.convert_image(image_path)
+    overlay_path = None
+    if overlay_flow:
+        overlay_path = random.choice(TEMPLATE_VIDEOS)
+        print("Background Video Choosen: {}".format(overlay_path))
+
+    if not overlay_path:
+        iv.set_audio(audio_path, audio_trim)
+        video_path = iv.convert_image(image_path)
+    else:
+        video_path = process_video_with_overlay(overlay_path, image_path, os.path.join(
+            "output", "video", f"{"".join(qt_day.quote[1:-1])}.mp4"))
     print("Video Rendered at", video_path, sep=": ")
 
     next_section()
 
+    print("Logging into instagram...")
     print(f"[{up.client.account_info().full_name}] Uploading to instagram...")
     title = "\n".join([qt_day.quote, f"- {qt_day.author}"] + BODY)
     print("Title Generated:\n", title)

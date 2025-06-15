@@ -1,0 +1,1487 @@
+[INFO] Starting video processing for '/home/max/Extras/Python/Quotes/templates/Videos/Kurt_Angle_Meme [Yadro_Green_Screen@Pinterest] [1009861916436216402].mp4'...
+[INFO] Decompressing video '/home/max/Extras/Python/Quotes/templates/Videos/Kurt_Angle_Meme [Yadro_Green_Screen@Pinterest] [1009861916436216402].mp4' into frames in 'temp_video_processing/decompressed_frames'...
+[DEBUG] Running ffmpeg command: ffmpeg -i /home/max/Extras/Python/Quotes/templates/Videos/Kurt_Angle_Meme [Yadro_Green_Screen@Pinterest] [1009861916436216402].mp4 -r 30 temp_video_processing/decompressed_frames/frame_%09d.png
+[INFO] Video '/home/max/Extras/Python/Quotes/templates/Videos/Kurt_Angle_Meme [Yadro_Green_Screen@Pinterest] [1009861916436216402].mp4' decompressed to frames in 'temp_video_processing/decompressed_frames'.
+[INFO] Processing frames and applying overlay using 4 threads. Outputting to 'temp_video_processing/processed_frames'...
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000003.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000002.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000004.png
+[DEBUG] Successfully processed and saved: frame_000000001.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000005.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000008.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000009.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000006.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000007.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000010.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000012.png
+[DEBUG] Successfully processed and saved: frame_000000011.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000015.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000013.png
+[DEBUG] Successfully processed and saved: frame_000000016.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000014.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000017.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000018.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000019.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000020.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000022.png
+[DEBUG] Successfully processed and saved: frame_000000021.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000023.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000024.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000025.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000027.png
+[DEBUG] Successfully processed and saved: frame_000000026.png
+[DEBUG] Successfully processed and saved: frame_000000028.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000029.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000032.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000031.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000030.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000034.png
+[DEBUG] Successfully processed and saved: frame_000000033.png
+[DEBUG] Successfully processed and saved: frame_000000035.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000036.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000038.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000040.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000039.png
+[DEBUG] Successfully processed and saved: frame_000000037.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000042.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000041.png
+[DEBUG] Successfully processed and saved: frame_000000044.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000043.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000046.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000047.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000045.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000048.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000049.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000050.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000052.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000051.png
+[DEBUG] Successfully processed and saved: frame_000000053.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000054.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000055.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000056.png
+[DEBUG] Successfully processed and saved: frame_000000057.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000059.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000058.png
+[DEBUG] Successfully processed and saved: frame_000000061.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000060.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000062.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000064.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000063.png
+[DEBUG] Successfully processed and saved: frame_000000065.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000066.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000068.png
+[DEBUG] Successfully processed and saved: frame_000000067.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000070.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000069.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000071.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000072.png
+[DEBUG] Successfully processed and saved: frame_000000073.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000074.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000076.png
+[DEBUG] Successfully processed and saved: frame_000000075.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000078.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000077.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000079.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000081.png
+[DEBUG] Successfully processed and saved: frame_000000080.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000082.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000083.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000084.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000085.png
+[DEBUG] Successfully processed and saved: frame_000000086.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000088.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000087.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000090.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000089.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000091.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000092.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000094.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000093.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000095.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000096.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000098.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000097.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000099.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000100.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000102.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000101.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000103.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000104.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000105.png
+[DEBUG] Successfully processed and saved: frame_000000106.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000107.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000108.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000109.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000110.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000111.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000112.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000114.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000113.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000115.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000116.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000118.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000117.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000119.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000120.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000121.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000122.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000123.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000124.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000125.png
+[DEBUG] Successfully processed and saved: frame_000000126.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000127.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000128.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000130.png
+[DEBUG] Successfully processed and saved: frame_000000129.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000131.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000132.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000133.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000134.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000135.png
+[DEBUG] Successfully processed and saved: frame_000000136.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000137.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000138.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000140.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000139.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000141.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000142.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000144.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000143.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000145.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000146.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000147.png
+[DEBUG] Successfully processed and saved: frame_000000148.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000149.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000150.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000152.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000151.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000153.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000154.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000155.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000156.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000157.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000158.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000159.png
+[DEBUG] Successfully processed and saved: frame_000000160.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000161.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000162.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000164.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000165.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000163.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000166.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000167.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000168.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000169.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000170.png
+[DEBUG] Successfully processed and saved: frame_000000171.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000172.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000173.png
+[DEBUG] Successfully processed and saved: frame_000000174.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000175.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000176.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000178.png
+[DEBUG] Successfully processed and saved: frame_000000179.png
+[DEBUG] Successfully processed and saved: frame_000000177.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000180.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000183.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000182.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000181.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000184.png
+[DEBUG] Successfully processed and saved: frame_000000186.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000185.png
+[DEBUG] Successfully processed and saved: frame_000000187.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000189.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000188.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000191.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000192.png
+[DEBUG] Successfully processed and saved: frame_000000190.png
+[DEBUG] Successfully processed and saved: frame_000000193.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000194.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000196.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000195.png
+[DEBUG] Successfully processed and saved: frame_000000197.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000198.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000199.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000201.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000200.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000202.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000204.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000203.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000205.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000206.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000207.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000208.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000209.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000210.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000212.png
+[DEBUG] Successfully processed and saved: frame_000000213.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000211.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000214.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000215.png
+[DEBUG] Successfully processed and saved: frame_000000216.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000217.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000218.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000219.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000220.png
+[DEBUG] Successfully processed and saved: frame_000000221.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000222.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000223.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000225.png
+[DEBUG] Successfully processed and saved: frame_000000224.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000226.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000227.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000228.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000230.png
+[DEBUG] Successfully processed and saved: frame_000000229.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000231.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000232.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000233.png
+[DEBUG] Successfully processed and saved: frame_000000234.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000235.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000236.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000237.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000238.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000239.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000242.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000241.png
+[DEBUG] Successfully processed and saved: frame_000000240.png
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Overlay size: (1080, 1920)
+[DEBUG] Original background size: (720, 1280)
+[DEBUG] Background aspect ratio: 0.5625
+[DEBUG] Foreground aspect ratio: 0.5625
+[INFO] Using 'fill' (crop) strategy.
+[DEBUG] Successfully processed and saved: frame_000000243.png
+[DEBUG] Successfully processed and saved: frame_000000244.png
+[DEBUG] Successfully processed and saved: frame_000000245.png
+[DEBUG] Successfully processed and saved: frame_000000246.png
+[INFO] Attempting to combine images from 'temp_video_processing/processed_frames' into 'output/video/Most people fail in life because they major in minor things..mp4'...
+[DEBUG] Running ffmpeg command: ffmpeg -framerate 30 -i /home/max/Extras/Python/Quotes/temp_video_processing/processed_frames/final_image_%09d.png -vf format=yuv420p,fade=t=in:st=0:d=1,fade=t=out:st=6.199999999999999:d=2 -c:v libx264 -crf 23 -preset medium -y output/video/Most people fail in life because they major in minor things..mp4
+[INFO] Video 'output/video/Most people fail in life because they major in minor things..mp4' created successfully.
+[INFO] Cleaning up temporary directory: temp_video_processing
+[INFO] Script execution finished. Look for 'output/video/Most people fail in life because they major in minor things..mp4' in the current directory.
+[INFO] Total time taken: 121.80s

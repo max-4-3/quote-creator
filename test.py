@@ -1,6 +1,3 @@
-import moviepy as mp
-
-# This bit is from gemini.
 import os
 import subprocess as sp
 import re
@@ -25,6 +22,10 @@ if not logger.handlers:
     formatter = logging.Formatter("[%(levelname)s] %(message)s")
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
+    # Also add a console handler for immediate feedback
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
 
 
 # --- Helper Functions (Internal to the module) ---
@@ -317,7 +318,6 @@ def process_video_with_overlay(
         _combine_image_dir_to_video(
             final_images_dir,
             output_video_file,
-            vf="format=yuv420p",
             fps=target_fps,
             fade_in_duration=fade_in_duration,
             fade_out_duration=fade_out_duration,
@@ -339,66 +339,31 @@ def process_video_with_overlay(
     logger.info(f"Script execution finished. Look for '{output_video_file}' in the current directory.")
     logger.info(f"Total time taken: {end_time - start_time:.2f}s")
 
-    return output_video_file
 
+# --- Main Script Execution (Example Usage) ---
 
-# This is my stupid code
+if __name__ == "__main__":
+    # --- Configuration for example usage ---
+    # Define video and image file paths. Adjust these to your actual file locations.
+    _vidfp = "/home/max/Videos/Pinterest/Pinterest_video_681591724875502878 [Peaky_Blinders@Pinterest] [681591724875502878].mp4"
+    _imgfp = "/home/max/Extras/Python/Quotes/output/images/370f21be75a64648bafade34a1d12341.png"
 
-mp.config.FFMPEG_BINARY = "/usr/bin/ffmpeg"
-mp.config.FFPLAY_BINARY = "/usr/bin/ffplay"
+    # Audio source path can be the input video itself to retain its audio
+    _audio_source_path = _vidfp
+    # Or a separate audio file:
+    # _audio_source_path = "/path/to/your/music.mp3"
 
-class RenderImageAsVideo:
-    def __init__(self, **kwargs):
-        self.output_path = kwargs.get("output_path") or "output/video"
-        self.output_name = kwargs.get("output_name") or "video.mp4"
-        self.duration = kwargs.get("duration") or 6.0
-        self.fadein = kwargs.get("fadein") or 2.0
-        self.fadeout = self.fadein
-        self.vfx = [mp.vfx.FadeIn(self.fadein), mp.vfx.FadeOut(self.fadeout)]
-        self.afx = [mp.afx.AudioFadeIn(self.fadein), mp.afx.AudioFadeOut(self.fadeout)]
-        self.audio: mp.CompositeAudioClip = None
-
-        os.makedirs(self.output_path, exist_ok=True)
-
-    def set_audio(
-        self, audio_path: str, audio_cut_time: tuple[int, int]
-    ) -> mp.CompositeAudioClip:
-        self.audio = (
-            mp.CompositeAudioClip(
-                [mp.AudioFileClip(audio_path).subclipped(*audio_cut_time)]
-            )
-            .with_effects(self.afx)
-            .with_duration(self.duration)
+    try:
+        process_video_with_overlay(
+            video_input_path=_vidfp,
+            overlay_image_path=_imgfp,
+            output_video_file="my_final_video.mp4", # Name of the output video
+            temp_dir_base="temp_processing_data", # Base temporary directory
+            target_fps=30,
+            fade_in_duration=2, # 2-second fade-in
+            fade_out_duration=2, # 2-second fade-out
+            audio_source_path=_audio_source_path
         )
-        return self.audio
+    except Exception as e:
+        logger.critical(f"An unhandled error occurred during video processing: {e}", exc_info=True)
 
-    def save_clip(self, clip: mp.CompositeVideoClip, filename: str, codec: str = "h264", preset: str = "fast"):
-        clip.write_videofile(filename=filename, codec=codec, preset=preset)
-        return filename if os.path.exists(filename) else None
-
-    def create_comp(self, *clips, vfx: list[mp.Effect | None] = None , fps: int = 60):
-        clip = mp.CompositeVideoClip(list(clips))
-        if vfx:
-            clip = clip.with_effects([fx for fx in vfx if fx])
-        clip.fps = fps
-        return clip
-
-    def convert_image(self, image_path: str, output_name=None):
-
-        if not self.audio:
-            raise Exception("Audio isn't set, consider doing .set_audio() first")
-
-        if output_name:
-            self.output_name = output_name
-
-        if not os.path.exists(image_path) or not os.path.isfile(image_path):
-            raise FileExistsError("Image File Doesn't Exist")
-
-        image = mp.ImageClip(image_path, duration=self.duration).with_effects(self.vfx)
-        clip = self.create_comp(image, fps=30)
-        clip.audio = self.audio
-        fp = self.save_clip(clip, os.path.join(self.output_path, self.output_name))
-        if not fp:
-            raise Exception("Unable to save Video")
-
-        return os.path.join(self.output_path, self.output_name)
