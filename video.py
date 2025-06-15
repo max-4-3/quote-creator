@@ -373,8 +373,23 @@ class RenderImageAsVideo:
         return self.audio
 
     def save_clip(self, clip: mp.CompositeVideoClip, filename: str, codec: str = "h264", preset: str = "fast"):
-        clip.write_videofile(filename=filename, codec=codec, preset=preset)
-        return filename if os.path.exists(filename) else None
+        directory, file_name = os.path.split(filename)
+        name, ext = os.path.splitext(file_name)
+
+        os.makedirs(directory, exist_ok=True)
+        if not ext:
+            ext = ".mp4"
+        elif not ext.startswith("."):
+            ext = "." + ext
+
+        # Sanitize the filename (remove spaces/symbols)
+        name = re.sub(r"[\W]+", "_", name)
+        cleaned_path = os.path.join(directory, name + ext)
+
+        # Save video
+        clip.write_videofile(filename=cleaned_path, codec=codec, preset=preset)
+
+        return cleaned_path if os.path.exists(cleaned_path) else None
 
     def create_comp(self, *clips, vfx: list[mp.Effect | None] = None , fps: int = 60):
         clip = mp.CompositeVideoClip(list(clips))

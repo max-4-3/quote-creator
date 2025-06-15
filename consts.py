@@ -1,3 +1,7 @@
+import os
+
+FINAL_VIDEO_PATH = os.path.join(os.path.split(__file__)[0], "output", "videos")
+FINAL_IMAGE_PATH = os.path.join(os.path.split(__file__)[0], "output", "images")
 BASE_URL = "https://zenquotes.io"
 END_POINTS = {
     "daily": "/api/today",
@@ -15,16 +19,16 @@ BODY = (
 OPEN_QUOTE = "“"
 CLOSE_QUOTE = "”"
 TEMPLATE_IMAGES = [
-    "/home/max/Extras/Python/Quotes/resources/templates/images/bro.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/what the intrusive thoughts whispered.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/how i hacked the simulation (accidentally).png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/3am.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/how dudes in ancient rome were probably vibing.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/quote_of_the_day.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/group_chat.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/what i texted my ex during a lunar eclipse.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/deamon_in_wall.png",
-    "/home/max/Extras/Python/Quotes/resources/templates/images/what the 2007 YouTube tutorial taught me.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/bro.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/what the intrusive thoughts whispered.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/how i hacked the simulation (accidentally).png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/3am.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/how dudes in ancient rome were probably vibing.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/quote_of_the_day.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/group_chat.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/what i texted my ex during a lunar eclipse.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/deamon_in_wall.png",
+    "/home/max/Extras/Python/Quotes/resources/template/images/what the 2007 YouTube tutorial taught me.png",
 ]
 TEMPLATE_VIDEOS = [
     "/home/max/Extras/Python/Quotes/resources/template/videos/_ [_@Pinterest] [41939840273995334].mp4",

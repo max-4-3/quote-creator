@@ -6,7 +6,7 @@ from rich import print
 import os
 import re
 import random
-from consts import BODY, AUDIO_DATA, TEMPLATE_IMAGES, TEMPLATE_VIDEOS, FONTS
+from consts import BODY, AUDIO_DATA, TEMPLATE_IMAGES, TEMPLATE_VIDEOS, FONTS, FINAL_VIDEO_PATH, FINAL_IMAGE_PATH
 import moviepy as mp
 
 
@@ -29,6 +29,9 @@ def main():
     up = Uploader()
     print("Everyting setup!")
 
+    ir.output_dir = FINAL_IMAGE_PATH
+    iv.output_path = FINAL_VIDEO_PATH
+
     if FONTS:
         font = random.choice(FONTS)
         print("Font choosen: {}".format(os.path.basename(font)))
@@ -48,6 +51,7 @@ def main():
     print("Gathering quote of the day...")
     qt_day = qt.get_quote_of_day()
     qt.save_quotes()
+    iv.output_name = "".join(qt_day.quote[1:-2])
     print("Recieved Quote of the day:", qt_day.quote, sep="\n")
 
     next_section()

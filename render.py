@@ -88,11 +88,14 @@ class RenderQuoteAsImage:
         return int((self.margin / 100) * self.width)
 
     def convert_quote_to_image(self, quote: str) -> str | None:
-        self.font = self.get_font()
         if self.template:
             if os.path.exists(self.template):
                 image = Image.open(self.template)
                 self.width, self.height = image.size
+            else:
+                image = Image.new(
+                    self.mode, (self.width, self.height), color=self.bg_color
+                )
         else:
             image = Image.new(
                 self.mode, (self.width, self.height), color=self.bg_color)
