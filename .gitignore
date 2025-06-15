@@ -14,3 +14,4 @@ wheels/
 *.mp4
 *.json
 *.ttf
+*.log
