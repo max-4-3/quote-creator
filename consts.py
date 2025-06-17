@@ -44,11 +44,7 @@ FONTS = [
     "/home/max/Extras/Python/Quotes/resources/fonts/Lora-Italic-VariableFont_wght.ttf",
     "/home/max/Extras/Python/Quotes/resources/fonts/Lora-VariableFont_wght.ttf",
     "/home/max/Extras/Python/Quotes/resources/fonts/MerriweatherSans-Italic-VariableFont_wght.ttf",
-    "/home/max/Extras/Python/Quotes/resources/fonts/MerriweatherSans-VariableFont_wght.ttf",
-    "/home/max/Extras/Python/Quotes/resources/fonts/Montserrat-Italic-VariableFont_wght.ttf",
-    "/home/max/Extras/Python/Quotes/resources/fonts/Montserrat-VariableFont_wght.ttf",
-    "/home/max/Extras/Python/Quotes/resources/fonts/Raleway-Italic-VariableFont_wght.ttf",
-    "/home/max/Extras/Python/Quotes/resources/fonts/Raleway-VariableFont_wght.ttf"
+    "/home/max/Extras/Python/Quotes/resources/fonts/MerriweatherSans-VariableFont_wght.ttf"
 ]
 AUDIO_DATA = [
     {

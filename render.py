@@ -110,8 +110,6 @@ class RenderQuoteAsImage:
 
         text_width, text_height = self.get_text_size(draw, "\n".join(lines))
         x, y = self.get_center_pos(text_width, text_height)
-        print(self.width, self.height, image.size,
-              x, y, text_height, text_width)
 
         draw.multiline_text(
             (x, y), "\n".join(lines), font=self.font, fill=self.font_color, align="center"

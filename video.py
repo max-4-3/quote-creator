@@ -349,7 +349,7 @@ mp.config.FFPLAY_BINARY = "/usr/bin/ffplay"
 
 class RenderImageAsVideo:
     def __init__(self, **kwargs):
-        self.output_path = kwargs.get("output_path") or "output/video"
+        self.output_path = kwargs.get("output_path") or "output/videos"
         self.output_name = kwargs.get("output_name") or "video.mp4"
         self.duration = kwargs.get("duration") or 6.0
         self.fadein = kwargs.get("fadein") or 2.0
