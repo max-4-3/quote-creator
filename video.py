@@ -416,4 +416,4 @@ class RenderImageAsVideo:
         if not fp:
             raise Exception("Unable to save Video")
 
-        return os.path.join(self.output_path, self.output_name)
+        return fp 

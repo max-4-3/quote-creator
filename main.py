@@ -98,7 +98,7 @@ def main():
         video_path = iv.convert_image(image_path)
     else:
         video_path = process_video_with_overlay(overlay_path, image_path, os.path.join(
-            "output", "video", f"{"".join(qt_day.quote[1:-1])}.mp4"))
+            "output", "video", f"{"".join(qt_day.quote[1:-2])}.mp4"))
     print("Video Rendered at", video_path, sep=": ")
 
     next_section()
