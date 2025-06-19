@@ -59,7 +59,7 @@ def main():
     print("Gathering quote of the day...")
     qt_day = qt.get_quote_of_day()
     qt.save_quotes()
-    iv.output_name = "".join(qt_day.quote[1:-2])
+    iv.output_name = qt_day.quote[1:-2]
     print("Recieved Quote of the day:", f"[bold]{
           qt_day.quote}[/bold]", sep="\n")
 
@@ -113,7 +113,7 @@ def main():
         video_path = iv.convert_image(image_path)
     else:
         video_path = process_video_with_overlay(overlay_path, image_path, os.path.join(
-            "output", "video", f"{"".join(qt_day.quote[1:-2])}.mp4"))
+            "output", "video", f"{qt_day.quote[1:-2]}.mp4"))
     print("Video Rendered at", f"[bold]{video_path}[/bold]", sep=":\n")
 
     next_section()
